@@ -1,0 +1,729 @@
+/* DRA. FERNANDA VALIM - CURURGIÃ DENTISTA */
+/* CSS ZIMBA DESIGN zimbacom.com @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+
+/**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
+
+
+header{
+  background-color: #232323;
+}
+
+
+.topo{
+  padding: 7px 0 7px 0;
+  background-color: #744e68;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 0.75rem;
+  margin: 0 0 3px 0;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #e2acd6;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+  background-color: #fff;
+  color: #744e68;
+  padding: 7px 23px 10px 23px;
+  border-radius: 55px;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+  box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* SLIDER-PRINCIPAL *//* SLIDER-PRINCIPAL *//**//* SLIDER-PRINCIPAL *//* SLIDER-PRINCIPAL */
+
+.slider-principal{
+  background-image: url(../imgs/slider-principal-drafernandavalim.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.slider-principal .foto-dra img{
+  padding: 60px 0;
+}
+
+.slider-principal h1{
+  padding: 5px 0;
+  font-size: 2.8rem;
+}
+
+.slider-principal h5{
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.slider-principal a{
+  text-decoration: none;
+}
+
+.slider-principal h4{
+  background-color: #fff;
+  padding: 12px 0 10px 0;
+  color: #744e68;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;  
+  margin: 20px 0 0 0;
+  border-radius: 55px;
+}
+
+.slider-principal h4:hover{
+  box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* TRATAMENTOS *//* TRATAMENTOS *//**//* TRATAMENTOS *//* TRATAMENTOS *//* TRATAMENTOS */
+
+.tratamentos{
+  background-image: url(../imgs/slider-todos-tratamentos-drafernandavalim.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #744e68;
+  padding: 65px;
+}
+
+.tratamentos h2{
+  font-weight: bold;
+}
+
+.tratamentos .meu-card{
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 15px;
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+.tratamentos .meu-card:hover{
+  background-color: #f4efef;
+}
+
+.tratamentos h5{
+  font-weight: bold;
+}
+
+.tratamentos a{
+  text-decoration: none;
+}
+
+.tratamentos h4{
+  background-color: #744e68;
+  color: #fff;
+  padding: 12px 0 10px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;  
+  border-radius: 55px;
+}
+
+.tratamentos h4:hover{
+   box-shadow: 0px 1px 10px #744e68, 0px 1px 10px #744e68, 0px 1px 8px #744e68, 0px 1px 12px #744e68;
+}
+
+
+
+
+
+/**//* DRA.FERNANDA *//* DRA.FERNANDA *//**//* DRA.FERNANDA *//* DRA.FERNANDA *//* DRA.FERNANDA */
+
+.dra-fernanda{
+  background-color: #744e68;
+  color: #e6cdcb;
+  padding: 65px 0;
+}
+
+.dra-fernanda h2{
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.dra-fernanda h3{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.dra-fernanda h5{
+  padding: 23px 0 12px 0;
+  font-weight: normal;
+}
+
+.dra-fernanda a{
+  text-decoration: none;
+}
+
+.dra-fernanda h4{
+  background-color: #fff;
+  padding: 12px 0 10px 0;
+  color: #744e68;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;  
+  border-radius: 55px;
+}
+
+.dra-fernanda h4:hover{
+   box-shadow: 0px 1px 10px #fff, 0px 1px 10px #fff, 0px 1px 8px #fff, 0px 1px 12px #fff;
+}
+
+
+
+
+
+/**//* INVISALIGN *//* INVISALIGN *//**//* INVISALIGN *//* INVISALIGN *//* INVISALIGN *//* INVISALIGN */
+
+.invisalign{
+  background-image: url(../imgs/slider-invisalign-drafernandavalim.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #744e68;
+  padding: 65px;
+}
+
+.invisalign .ibagens img{
+  width: 44%;
+}
+
+.invisalign .ibagens .empurra{
+  margin: 0 33px 0 0;
+}
+
+.invisalign h2{
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.invisalign h5{
+  padding: 23px 0 12px 0;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.invisalign a{
+  text-decoration: none;
+}
+
+.invisalign h4{
+  background-color: #744e68;
+  color: #fff;
+  padding: 12px 0 10px 0;
+  margin: 15px 0 0 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 55px;
+}
+
+.invisalign h4:hover{
+   box-shadow: 0px 1px 10px #744e68, 0px 1px 10px #744e68, 0px 1px 8px #744e68, 0px 1px 12px #744e68;
+}
+
+
+
+
+
+/**//* OUTROS-TRATAMENTOS *//* OUTROS-TRATAMENTOS *//**//* OUTROS-TRATAMENTOS *//* OUTROS-TRATAMENTOS */
+
+.outros-tratamentos{
+  background-image: url(../imgs/slider-tratamentos-drafernandavalim.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #744e68;
+  padding: 65px;
+}
+
+.outros-tratamentos .imgs-celular{
+  display: none;
+}
+
+.outros-tratamentos h2{
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.outros-tratamentos h5{
+  padding: 23px 0 12px 0;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.outros-tratamentos a{
+  text-decoration: none;
+}
+
+.outros-tratamentos h4{
+  background-color: #744e68;
+  color: #fff;
+  padding: 12px 0 10px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 55px;
+  width: 95%;
+}
+
+.outros-tratamentos h4:hover{
+   box-shadow: 0px 1px 10px #744e68, 0px 1px 10px #744e68, 0px 1px 8px #744e68, 0px 1px 12px #744e68;
+}
+
+
+
+
+
+/**//* CONSULTÓRIO *//* CONSULTÓRIO *//**//* CONSULTÓRIO *//* CONSULTÓRIO *//* CONSULTÓRIO *//* CONSULTÓRIO */
+
+.consultorio{
+  background-color: #eedfde;
+  color: #744e68;
+  padding: 65px 0 88px 0;
+}
+
+.consultorio h2{
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.consultorio h4{
+  font-weight: bold;
+}
+
+.consultorio h5{
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.consultorio iframe{
+  width: 100%;
+  height: 333px;
+}
+
+
+
+
+
+/**//* FOOTER *//* FOOTER *//**//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+
+.footer{
+  background-color: #744e68;
+  color: #fff;
+  padding: 123px 0;
+}
+
+.footer h4{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 44px 0 7px 0;
+}
+
+.footer h5{
+  font-weight: normal;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+
+
+
+
+/* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */
+  
+  .last-section{
+    background-color: #65425d;
+    color: #fff;
+    padding: 5px 0 2px 0;
+  }
+
+  .last-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .last-section h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+@media(max-width: 1410px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.65rem;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+}
+
+@media(max-width: 1210px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.6rem;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+}
+
+@media(max-width: 1075px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.5rem;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+}
+
+
+@media(max-width: 992px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.8rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .slider-principal{
+    text-align: center;
+    padding: 77px 0 33px 0;
+  }
+
+  .tratamentos br{
+    display: none;
+  }
+
+  .tratamentos .meu-card{
+    margin: 10px 0;
+  }
+
+  .tratamentos .col-lg-12 h5{
+    padding: 15px 0;
+  }
+
+  .tratamentos h4{
+    margin: 55px 0 0 0;
+  }
+
+  .dra-fernanda{
+    text-align: center;
+  }
+
+  .dra-fernanda .simbolo img{
+    padding: 0 0 55px 0;
+    width: 400px;
+  }
+
+  .invisalign{
+    background-image: url(../imgs/slider-invisalign-drafernandavalim-celular.webp);
+    text-align: center;
+  }
+
+  .outros-tratamentos{
+    background-image: url(../imgs/slider-tratamentos-drafernandavalim-celular.webp);
+    text-align: center;
+  }
+
+  .outros-tratamentos br{
+    display: none;
+  }
+
+  .outros-tratamentos .imgs-celular{
+    display: block;
+    padding: 33px 0 55px 0;
+  }
+
+  .outros-tratamentos .celula2{
+    margin: 77px 0 0 0;
+  }
+
+  .consultorio{
+    text-align: center;
+    padding: 65px 0;
+  }
+
+  .consultorio .col-lg-4{
+    margin: 0 0 55px 0;
+  }
+
+  .consultorio .simbolo img{
+    width: 350px;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .last-section{
+    text-align: center;
+  }
+
+}
+
+
+@media(max-width: 551px){
+
+  .tratamentos h2{
+    font-size: 2rem;
+  }
+
+  .dra-fernanda h2{
+    font-size: 2rem;
+  }
+
+  .invisalign h2{
+    font-size: 2rem;
+  }
+
+  .outros-tratamentos h2{
+    font-size: 2rem;
+  }
+
+  .consultorio h2{
+    font-size: 2rem;
+  }
+
+
+
+  .slider-principal h4{
+    font-size: 1rem;
+  }
+
+  .tratamentos h4{
+    font-size: 1rem;
+  }
+
+  .dra-fernanda h4{
+    font-size: 1rem;
+  }
+
+  .invisalign h4{
+    font-size: 1rem;
+  }
+
+  .outros-tratamentos h4{
+    font-size: 1rem;
+  }
+
+  .consultorio h4{
+    font-size: 1.3rem;
+  }
+
+
+
+  .dra-fernanda .simbolo img{
+    width: 300px;
+  }
+
+  .consultorio .simbolo img{
+    width: 250px;
+  }
+
+}
+  
+
+
+@media(max-width: 470px){
+
+  .slider-principal h1{
+    font-size: 2.5rem;
+  }
+
+  .tratamentos h5{
+    font-size: 1rem;
+  }
+
+  .dra-fernanda .simbolo img{
+    width: 200px;
+  }
+
+  .consultorio .simbolo img{
+    width: 150px;
+  }
+
+  .invisalign .ibagens img{
+    width: 80%;
+  }
+
+  .invisalign .ibagens .empurra{
+    margin: 0 0 33px 0;
+  }
+
+
+
+  .tratamentos h4{
+    font-size: 1.3rem;
+    padding: 22px;
+  }
+
+  .dra-fernanda h4{
+    font-size: 1.3rem;
+    padding: 22px;
+  }
+
+  .invisalign h4{
+    font-size: 1.3rem;
+    padding: 22px;
+  }
+
+  .outros-tratamentos h4{
+    font-size: 1.3rem;
+    padding: 22px;
+  }
+
+}
+
+
+
+@media(max-width: 400px){
+
+  .topo .logo{
+    width: 210px;
+  }
+
+  .tratamentos h2{
+    font-size: 1.5rem;
+  }
+
+  .dra-fernanda h2{
+    font-size: 1.5rem;
+  }
+
+  .invisalign h2{
+    font-size: 1.5rem;
+  }
+
+  .outros-tratamentos h2{
+    font-size: 1.5rem;
+  }
+
+  .consultorio h2{
+    font-size: 1.5rem;
+  }
+
+
+  .tratamentos h5{
+    font-size: 1rem;
+  }
+
+  .dra-fernanda h5{
+    font-size: 1rem;
+  }
+
+  .invisalign h5{
+    font-size: 1rem;
+  }
+
+  .outros-tratamentos h5{
+    font-size: 1rem;
+  }
+
+  .consultorio h5{
+    font-size: 1rem;
+  }
+
+
+
+  .consultorio{
+    padding: 65px 0 0 0;
+  }
+
+  .footer{
+    padding: 88px 0;
+  }
+
+  .footer .simbolo img{
+    width: 200px;
+  }
+
+
+}
+
+
+
+@media(max-width: 350px){
+
+  .topo .logo{
+    width: 165px;
+  }
+
+}
